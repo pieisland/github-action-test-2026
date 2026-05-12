@@ -20,3 +20,4 @@ http.createServer((req, res) => {
 
 console.log("server running");
 	
+throw new Error("boom");
